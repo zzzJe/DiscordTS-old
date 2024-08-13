@@ -1,0 +1,24 @@
+{
+  "name": "discordts",
+  "version": "0.1.0",
+  "description": "Template of building discord bot with typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc && tsc-alias",
+    "start": "node ."
+  },
+  "author": "zzzJe",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "djs-commander": "^0.0.50",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsc-alias": "^1.8.10",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
+}
